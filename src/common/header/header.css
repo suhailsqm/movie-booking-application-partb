@@ -33,13 +33,5 @@
   }
 
   @keyframes tt {
-    0% {
-      transform: linear;
-      left: 0px;
-    }
-
-    100% {
-      transform: linear;
-      left: 100%;
-    }
+    from { transform: scaleX(-1); }
   }
